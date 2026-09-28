@@ -1,0 +1,32 @@
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build nəticələri
+[Bb]in/
+[Oo]bj/
+[L|l]og/
+[L|l]ogs/
+
+## NuGet Paketləri
+packages/
+*.nuget.props
+*.nuget.targets
+
+## IDE & Kod alətləri (VS Code & ReSharper)
+.vscode/
+_ReSharper*/
+*.DotSettings
+*.DotSettings.user
+
+## Əməliyyat sistemi faylları
+.DS_Store
+Thumbs.db
+
+## Şifrələr, gizli ayarlar və konfiqurasiyalar
+appsettings.Development.json
+appsettings.Local.json
+*.env
